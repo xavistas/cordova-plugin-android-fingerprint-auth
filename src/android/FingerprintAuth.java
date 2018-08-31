@@ -365,7 +365,7 @@ public class FingerprintAuth extends CordovaPlugin {
                             } else {
                                 /***
                                  Use backup
-                                 */
+                                 
                                 Log.v(TAG, "In backup");
                                 if (useBackupLockScreen() == true) {
                                     Log.v(TAG, "useBackupLockScreen: true");
@@ -375,12 +375,12 @@ public class FingerprintAuth extends CordovaPlugin {
 
                                 if (useBackupLockScreen()) {
                                     showAuthenticationScreen();
-                                } else {
+                                } else {*/
                                     Log.e(TAG, "Fingerprint authentication not available");
                                     mPluginResult = new PluginResult(PluginResult.Status.ERROR);
                                     mCallbackContext.error(PluginError.FINGERPRINT_NOT_AVAILABLE.name());
                                     mCallbackContext.sendPluginResult(mPluginResult);
-                                }
+                                // }
                             }
                         }
                     }
