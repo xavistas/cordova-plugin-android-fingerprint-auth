@@ -32,24 +32,13 @@
         android:text="@string/fingerprint_auth_dialog_title"
         android:textAppearance="@android:style/TextAppearance.Material.Title"/>
 
-    <TextView
-        android:id="@+id/fingerprint_description"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/fingerprint_auth_dialog_title"
-        android:layout_marginTop="16dp"
-        android:text="@string/fingerprint_description"
-        android:textAppearance="@android:style/TextAppearance.Material.Subhead"
-        android:textColor="?android:attr/textColorSecondary"/>
-
     <LinearLayout
         android:id="@+id/statusPanel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/fingerprint_description"
+        android:layout_below="@+id/fingerprint_auth_dialog_title"
         android:layout_marginTop="20dp"
         android:gravity="left|center_vertical">
 

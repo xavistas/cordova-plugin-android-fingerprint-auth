@@ -92,15 +92,7 @@ public class FingerprintAuthenticationDialogFragment extends DialogFragment
             dialogTitleTextView.setText(FingerprintAuth.mDialogTitle);
         }
 
-        // Set dialog message
-        int fingerprint_description_id = getResources()
-                .getIdentifier("fingerprint_description", "id", FingerprintAuth.packageName);
-        TextView dialogMessageTextView = (TextView) v.findViewById(fingerprint_description_id);
-        if (null != FingerprintAuth.mDialogMessage) {
-            dialogMessageTextView.setText(FingerprintAuth.mDialogMessage);
-        }
-
-        // Set dialog hing
+        // Set dialog hint
         int fingerprint_hint_id = getResources()
                 .getIdentifier("fingerprint_status", "id", FingerprintAuth.packageName);
         TextView dialogHintTextView = (TextView) v.findViewById(fingerprint_hint_id);
