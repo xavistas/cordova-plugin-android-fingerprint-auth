@@ -16,14 +16,14 @@
   -->
 <resources>
     <string name="cancel">Annuleer</string>
-    <string name="use_backup">gebruik back-up</string>
-    <string name="fingerprint_auth_dialog_title">Fingerprint Authenticatie</string>
+    <string name="use_backup">Gebruik backup</string>
+    <string name="fingerprint_auth_dialog_title">Authenticatie via vingerafdruk</string>
     <string name="ok">Ok</string>
-    <string name="fingerprint_description">Bevestig fingerprint om verder te gaan</string>
+    <string name="fingerprint_description">Gebruik je vingerafdruk om verder te gaan</string>
     <string name="fingerprint_hint">Raak de sensor aan</string>
-    <string name="fingerprint_not_recognized">Fingerprint niet herkend. Probeer het nog eens.</string>
-    <string name="fingerprint_success">Fingerprint herkend</string>
-    <string name="new_fingerprint_enrolled_description">Er is een nieuwe Fingerprint toegevoegd aan dit device, dus uw password is vereist.</string>
-    <string name="secure_lock_screen_required">Secure lock screen vereist!</string>
-    <string name="fingerprint_too_many_attempts">Te veel proberen. Probeer het later nog eens.</string>
+    <string name="fingerprint_not_recognized">Vingerafdruk niet herkend. Probeer opnieuw</string>
+    <string name="fingerprint_success">Vingerafdruk herkend</string>
+    <string name="new_fingerprint_enrolled_description">Er is een nieuwe vingerafdruk aan dit toestel toegevoegd, hierdoor is uw paswoord nodig.</string>
+    <string name="secure_lock_screen_required">Schermbeveiliging noodzakelijk !</string>
+    <string name="fingerprint_too_many_attempts">Teveel foutieve pogingen. Probeer later opnieuw.</string>
 </resources>
